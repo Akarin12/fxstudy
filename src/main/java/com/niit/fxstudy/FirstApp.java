@@ -15,6 +15,7 @@ import java.net.URL;
 /**
  * 第一个使用maven和bootstrap以及各种布局的javafx程序
  */
+
 public class FirstApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
