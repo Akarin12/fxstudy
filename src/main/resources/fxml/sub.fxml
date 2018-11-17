@@ -1,130 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.layout.*?>
-
-<?import javafx.scene.control.Button?>
 <?import org.kordamp.bootstrapfx.scene.layout.Panel?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.geometry.Insets?>
-<BorderPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.niit.fxstudy.FirstController">
-    <top>
-        <AnchorPane>
-            <Button text="返回" styleClass="btn,btn-info,btn-lg"/>
-        </AnchorPane>
-    </top>
-    <center>
-        <GridPane>
-            <Panel GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
-                   styleClass="panel-default" prefWidth="260" prefHeight="260">
-                <heading>
-                    <Label styleClass="h3" text="故事"/>
-                </heading>
-                <body>
-                    <VBox spacing="20">
-                        <Label text="真实或虚幻的故事"/>
-                        <ImageView>
-                            <Image url="/img/1.png"/>
-                        </ImageView>
-                        <padding>
-                            <Insets top="10" bottom="10" left="30"/>
-                        </padding>
-                    </VBox>
-                </body>
-            </Panel>
+<GridPane hgap="50" vgap="10">
+    <padding>
+        <Insets top="10" left="20" bottom="20" right="20"/>
+    </padding>
 
-            <Panel GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
-                   styleClass="panel-success" prefWidth="260" prefHeight="260">
-                <heading>
-                    <Label styleClass="h3" text="摄影"/>
-                </heading>
-                <body>
-                    <VBox spacing="20">
-                        <Label text="用镜头记录精彩瞬间"/>
-                        <ImageView>
-                            <Image url="/img/2.png"/>
-                        </ImageView>
-                        <padding>
-                            <Insets top="10" bottom="10" left="30"/>
-                        </padding>
-                    </VBox>
-                </body>
-            </Panel>
+    <Panel GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
+           styleClass="panel-default" prefWidth="260" prefHeight="260">
+        <heading>
+            <Label styleClass="h3" text="故事"/>
+        </heading>
+        <body>
+            <VBox spacing="20">
+                <Label text="真实或虚幻的故事"/>
+                <ImageView>
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
 
-            <Panel GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
-                   styleClass="panel-warning" prefWidth="260" prefHeight="260">
-                <heading>
-                    <Label styleClass="h3" text="旅行"/>
-                </heading>
-                <body>
-                    <VBox spacing="20">
-                        <Label text="眼睛或身体总有一个在路上"/>
-                        <ImageView>
-                            <Image url="/img/3.png"/>
-                        </ImageView>
-                        <padding>
-                            <Insets top="10" bottom="10" left="30"/>
-                        </padding>
-                    </VBox>
-                </body>
-            </Panel>
+    <Panel GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
+           styleClass="panel-success"  prefWidth="260" prefHeight="260">
+        <heading>
+            <Label styleClass="h3" text="摄影"/>
+        </heading>
+        <body>
+            <VBox spacing="20">
+                <Label text="用镜头记录精彩瞬间"/>
+                <ImageView>
+                    <Image url="/img/2.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
 
-            <Panel GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
-                   styleClass="panel-primary" prefWidth="260" prefHeight="260">
-                <heading>
-                    <Label styleClass="h3" text="故事"/>
-                </heading>
-                <body>
-                    <VBox spacing="20">
-                        <Label text="真实或虚幻的故事"/>
-                        <ImageView>
-                            <Image url="/img/1.png"/>
-                        </ImageView>
-                        <padding>
-                            <Insets top="10" bottom="10" left="30"/>
-                        </padding>
-                    </VBox>
-                </body>
-            </Panel>
+    <Panel GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.hgrow="ALWAYS"
+           styleClass="panel-warning"  prefWidth="260" prefHeight="260">
+        <heading>
+            <Label styleClass="h3" text="旅行"/>
+        </heading>
+        <body>
+            <VBox spacing="20">
+                <Label text="眼睛或身体总有一个在路上"/>
+                <ImageView>
+                    <Image url="/img/3.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
 
-            <Panel GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
-                   styleClass="panel-info" prefWidth="260" prefHeight="260">
-                <heading>
-                    <Label styleClass="h3" text="摄影"/>
-                </heading>
-                <body>
-                    <VBox spacing="20">
-                        <Label text="用镜头记录精彩瞬间"/>
-                        <ImageView>
-                            <Image url="/img/2.png"/>
-                        </ImageView>
-                        <padding>
-                            <Insets top="10" bottom="10" left="30"/>
-                        </padding>
-                    </VBox>
-                </body>
-            </Panel>
+    <Panel GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
+           styleClass="panel-primary" prefWidth="260" prefHeight="260">
+        <heading>
+            <Label styleClass="h3" text="故事"/>
+        </heading>
+        <body>
+            <VBox spacing="20">
+                <Label text="真实或虚幻的故事"/>
+                <ImageView>
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
 
-            <Panel GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
-                   styleClass="panel-success" prefWidth="260" prefHeight="260">
-                <heading>
-                    <Label styleClass="h3" text="旅行"/>
-                </heading>
-                <body>
-                    <VBox spacing="20">
-                        <Label text="眼睛或身体总有一个在路上"/>
-                        <ImageView>
-                            <Image url="/img/3.png"/>
-                        </ImageView>
-                        <padding>
-                            <Insets top="10" bottom="10" left="30"/>
-                        </padding>
-                    </VBox>
-                </body>
-            </Panel>
-        </GridPane>
-    </center>
-</BorderPane>
+    <Panel GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
+           styleClass="panel-info" prefWidth="260" prefHeight="260">
+        <heading>
+            <Label styleClass="h3" text="摄影"/>
+        </heading>
+        <body>
+            <VBox spacing="20">
+                <Label text="用镜头记录精彩瞬间"/>
+                <ImageView>
+                    <Image url="/img/2.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
+
+    <Panel GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS"
+           styleClass="panel-danger" prefWidth="260" prefHeight="260">
+        <heading>
+            <Label styleClass="h3" text="旅行"/>
+        </heading>
+        <body>
+            <VBox spacing="20">
+                <Label text="眼睛或身体总有一个在路上"/>
+                <ImageView>
+                    <Image url="/img/3.png"/>
+                </ImageView>
+                <padding>
+                    <Insets top="10" bottom="10" left="30"/>
+                </padding>
+            </VBox>
+        </body>
+    </Panel>
+
+</GridPane>
